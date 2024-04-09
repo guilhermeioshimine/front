@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%
+}
+
+.fill-container {
+  width: 100%; /* Faz com que o sidenav-container ocupe toda a largura da tela */
+}
+
+.mat-drawer {
+  background-color: gray; /* Replace with your desired color */
+  width: 200px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px; /* ajuste o tamanho do ícone conforme necessário */
+}
+
+.text {
+  margin-top: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 8px; /* ajuste o espaçamento entre o ícone e o texto conforme necessário */
+}
